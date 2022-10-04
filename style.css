@@ -1,0 +1,48 @@
+body{
+    min-height: 2500px;
+}
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #cee3fa;
+}
+.item{
+    margin: 4rem 0;
+}
+.skill p {
+    font-size: 1.5rem;
+}
+.contactitem{
+    width: 20rem;
+    height: 2rem;
+    border: 0.15rem rgb(143, 143, 143) solid;
+    border-radius: 5rem;
+    margin: 1rem 2rem;
+}
+.contactcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 40%;
+    margin: auto;
+}
+.contactPertama{
+    display: flex;
+    justify-content: space-around;
+}
+.contactKedua{
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.linkedin i {
+    color: rgb(36, 167, 207);
+}
+.whatsapp i {
+    color: green;
+}
+.telegram i {
+    color: rgb(0, 162, 255);
+}
